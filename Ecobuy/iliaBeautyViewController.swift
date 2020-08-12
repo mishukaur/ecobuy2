@@ -16,7 +16,10 @@ class iliaBeautyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func iliabeautylink(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://iliabeauty.com")! as URL, options: [:], completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

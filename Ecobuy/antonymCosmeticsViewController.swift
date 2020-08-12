@@ -16,7 +16,10 @@ class antonymCosmeticsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func antonymcosmeticslink(_ sender: Any) {
+        UIApplication.shared.open(URL(string:"https://www.antonymcosmetics.com")! as URL, options: [:], completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

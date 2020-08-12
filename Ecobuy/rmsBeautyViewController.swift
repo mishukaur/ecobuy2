@@ -16,7 +16,10 @@ class rmsBeautyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func rmsbeautylink(_ sender: Any) {
+         UIApplication.shared.open(URL(string:"https://www.rmsbeauty.com")! as URL, options: [:], completionHandler: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

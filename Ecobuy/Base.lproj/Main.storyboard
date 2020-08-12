@@ -37,7 +37,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7TS-ct-PTA" kind="show" id="VQx-Zj-ohI"/>
+                                    <segue destination="tQ4-qo-JYt" kind="show" id="VQx-Zj-ohI"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-08-11 at 1.57.31 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ut9-QG-6id">
@@ -94,32 +94,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sustainable clothing" translatesAutoresizingMaskIntoConstraints="NO" id="v8R-Lf-lio">
-                                <rect key="frame" x="50" y="11" width="308" height="198"/>
+                                <rect key="frame" x="53" y="30" width="308" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vegan food" translatesAutoresizingMaskIntoConstraints="NO" id="6xu-mB-K8m">
-                                <rect key="frame" x="54" y="405" width="307" height="187"/>
+                                <rect key="frame" x="55" y="433" width="307" height="187"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sustainable home decor" translatesAutoresizingMaskIntoConstraints="NO" id="uYd-W4-osn">
-                                <rect key="frame" x="67" y="620" width="294" height="168"/>
+                                <rect key="frame" x="68" y="640" width="294" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eco friendly makeup 2" translatesAutoresizingMaskIntoConstraints="NO" id="ebE-cp-ozh">
-                                <rect key="frame" x="70" y="217" width="274" height="193"/>
+                                <rect key="frame" x="71" y="232" width="274" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50b-0U-Qtn">
-                                <rect key="frame" x="155" y="114" width="104" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="C L O T H I N G">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Goy-fN-DSl">
-                                <rect key="frame" x="149" y="298" width="118" height="30"/>
+                                <rect key="frame" x="149" y="313" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="C O S M E T I C S">
@@ -130,7 +121,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRz-am-XLf">
-                                <rect key="frame" x="188" y="483" width="54" height="30"/>
+                                <rect key="frame" x="181" y="501" width="54" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="F O O D">
@@ -138,11 +129,20 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apS-8U-R4s">
-                                <rect key="frame" x="147" y="689" width="135" height="30"/>
+                                <rect key="frame" x="149" y="709" width="135" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title=" H O M E  D E C O R">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50b-0U-Qtn">
+                                <rect key="frame" x="156" y="126" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="C L O T H I N G">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                         </subviews>
@@ -154,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4eg-r2-jqU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="639.13043478260875" y="92.410714285714278"/>
+            <point key="canvasLocation" x="1549.2753623188407" y="92.410714285714278"/>
         </scene>
         <!--Antonym Cosmetics View Controller-->
         <scene sceneID="0vL-07-Ao6">
@@ -164,11 +164,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4y-xh-HLT">
-                                <rect key="frame" x="36" y="62" width="319" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="antonym cosmetics logo"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="antonym1" translatesAutoresizingMaskIntoConstraints="NO" id="FvR-YC-AeH">
                                 <rect key="frame" x="20" y="408" width="179" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -185,6 +180,23 @@
                                 <rect key="frame" x="226" y="436" width="179" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOh-wM-yJI">
+                                <rect key="frame" x="48" y="241" width="319" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">All products created by Antonym Cosmetics are ECOCERT verified, meaning the products and packaging are confirmed to meet certain environmental standards by a third-party. Everything is cruelty-free and vegan (except for the beeswax in the lipstick). Packaging is made from bamboo and recycled materials but the foundation comes in plastic!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4y-xh-HLT">
+                                <rect key="frame" x="48" y="74" width="319" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="antonym cosmetics logo"/>
+                                <connections>
+                                    <action selector="antonymcosmeticslink:" destination="6vR-5R-mLE" eventType="touchUpInside" id="gIk-Pf-o8O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.53333770540000003" green="0.78039215689999997" blue="0.39867298229999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.68480963130000005" green="1" blue="0.42668400690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -204,11 +216,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMp-B2-nzb">
-                                <rect key="frame" x="48" y="50" width="319" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="ilia beauty logo"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ilia3" translatesAutoresizingMaskIntoConstraints="NO" id="0Sa-nx-k7u">
                                 <rect key="frame" x="20" y="445" width="187" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -225,6 +232,23 @@
                                 <rect key="frame" x="201" y="666" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57y-IB-d6z">
+                                <rect key="frame" x="48" y="246" width="319" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Everything made by Ilia Beauty is cruelty-free and clean! While this brand uses plastic, they have a take-back program in which customers can mail in empty beauty products (even from a different brand) which will be used to make the packaging!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMp-B2-nzb">
+                                <rect key="frame" x="48" y="70" width="319" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ilia beauty logo"/>
+                                <connections>
+                                    <action selector="iliabeautylink:" destination="mR1-wk-PJg" eventType="touchUpInside" id="s1j-83-r1M"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.53333770540000003" green="0.78039215689999997" blue="0.39867298229999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.68480963130000005" green="1" blue="0.42668400690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -244,11 +268,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pE4-k4-BDy">
-                                <rect key="frame" x="48" y="49" width="319" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="rms beauty logo"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rms1" translatesAutoresizingMaskIntoConstraints="NO" id="jb2-1K-G7e">
                                 <rect key="frame" x="20" y="425" width="192" height="246"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -265,6 +284,23 @@
                                 <rect key="frame" x="-33" y="635" width="298" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpP-dA-SE0">
+                                <rect key="frame" x="48" y="254" width="319" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">RMS Beauty has been recognized by Vogue, Allure, InStyle, and more for its use of organic and toxin-free ingredients. Every product is non-GMO, soy-free, gluten-free (the exception being the volumizing mascara), and cruelty-free. The packaging is made from recycled materials and manufactured with wind power!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pE4-k4-BDy">
+                                <rect key="frame" x="48" y="74" width="319" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="rms beauty logo"/>
+                                <connections>
+                                    <action selector="rmsbeautylink:" destination="XpU-v2-Sz1" eventType="touchUpInside" id="8Lt-PA-ii1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.53333770540000003" green="0.78039215689999997" blue="0.39867298229999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.68480963130000005" green="1" blue="0.42668400690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -284,24 +320,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TV-K3-Yix">
-                                <rect key="frame" x="49" y="45" width="316" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="aether beauty logo"/>
-                                <connections>
-                                    <segue destination="29O-3S-85u" kind="show" id="esm-ds-eRa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJB-AT-KRL">
-                                <rect key="frame" x="46" y="224" width="319" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="antonym cosmetics logo"/>
-                                <connections>
-                                    <segue destination="6vR-5R-mLE" kind="show" id="gr6-6i-64j"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pj2-DQ-mbm">
-                                <rect key="frame" x="46" y="410" width="319" height="129"/>
+                                <rect key="frame" x="48" y="444" width="319" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="ilia beauty logo"/>
                                 <connections>
@@ -309,11 +329,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bZ-J4-Eqs">
-                                <rect key="frame" x="46" y="608" width="319" height="129"/>
+                                <rect key="frame" x="46" y="632" width="319" height="129"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="rms beauty logo"/>
                                 <connections>
                                     <segue destination="XpU-v2-Sz1" kind="show" id="2jo-4O-gds"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJB-AT-KRL">
+                                <rect key="frame" x="49" y="260" width="319" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="antonym cosmetics logo"/>
+                                <connections>
+                                    <segue destination="6vR-5R-mLE" kind="show" id="gr6-6i-64j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TV-K3-Yix">
+                                <rect key="frame" x="49" y="91" width="316" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="aether beauty logo"/>
+                                <connections>
+                                    <segue destination="29O-3S-85u" kind="show" id="esm-ds-eRa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -325,7 +361,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xbK-f1-6WF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1334.7826086956522" y="97.767857142857139"/>
+            <point key="canvasLocation" x="2244.927536231884" y="97.767857142857139"/>
         </scene>
         <!--Aether Beauty View Controller-->
         <scene sceneID="2qY-QL-Dow">
@@ -335,11 +371,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4l7-ds-uZW">
-                                <rect key="frame" x="49" y="44" width="316" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="aether beauty logo"/>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aether8" translatesAutoresizingMaskIntoConstraints="NO" id="Ced-hB-sU5">
                                 <rect key="frame" x="20" y="362" width="179" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -356,6 +387,23 @@
                                 <rect key="frame" x="-4" y="594" width="227" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tm-cw-0MS">
+                                <rect key="frame" x="20" y="226" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Aether Beauty utilizes organic, fair-trade, vegan, and non-GMO ingredients wherever they can. The packaging is almost completely recyclable. As a cherry on top, this brand has an astronomy/crystals/Greek mythology theme!</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4l7-ds-uZW">
+                                <rect key="frame" x="49" y="76" width="316" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="aether beauty logo"/>
+                                <connections>
+                                    <action selector="aetherbeautylink:" destination="29O-3S-85u" eventType="touchUpInside" id="jcP-OT-Dac"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.53333770540000003" green="0.78039215689999997" blue="0.39867298229999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.68480963130000005" green="1" blue="0.42668400690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -365,7 +413,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V5F-TC-E3r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021.7391304347827" y="97.767857142857139"/>
+            <point key="canvasLocation" x="2930.434782608696" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ei6-iw-GTm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tQ4-qo-JYt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="k1i-cJ-XRQ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1FT-UM-F2m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7TS-ct-PTA" kind="relationship" relationship="rootViewController" id="iBP-az-bLO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oll-Wr-J4h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="639.13043478260875" y="92.410714285714278"/>
         </scene>
     </scenes>
     <resources>
